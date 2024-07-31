@@ -5,10 +5,10 @@ import ExperienceList from "./ExperienceList";
 const ExperienceMain = () => {
   return (
     <>
-      <div className=" pt-[70px] pl-[70px] ">
+      <div className=" pt-[70px] px-[188px] ">
         <strong className="text-[35px] text-white">EXPERIENCE</strong>
       </div>
-      <div className="flex justify-between pl-[70px] pr-[70px]">
+      <div className="flex justify-between px-[188px] ">
         <ExperienceList />
         <ExperienceContent />
       </div>

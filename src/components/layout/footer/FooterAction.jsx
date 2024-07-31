@@ -2,7 +2,7 @@ import React from "react";
 
 const FooterAction = () => {
   return (
-    <div>
+    <div className="pt-[64px]">
       <div className="flex gap-[25px] pb-[40px]">
         <img src="./src/assets/contact/emailIcon.png" alt="" />
         <a href="" className="text-[30px] text-white">

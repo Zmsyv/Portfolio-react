@@ -6,7 +6,7 @@ import ProjectMain from "./projects/ProjectMain";
 
 const SectionsMain = () => {
   return (
-    <div className="bg-slate-400">
+    <div className="bg-slate-900">
       <HeroMain />
       <AboutMeMain />
       <ExperienceMain />

@@ -4,7 +4,7 @@ import HeroImg from "./HeroImg";
 
 const HeroMain = () => {
   return (
-    <div className="flex justify-between p-[70px] bg-slate-400">
+    <div className="flex justify-between px-[188px] py-[70px] bg-slate-900">
       <HeroContent />
       <HeroImg />
     </div>
