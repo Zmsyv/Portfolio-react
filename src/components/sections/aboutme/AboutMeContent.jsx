@@ -2,9 +2,9 @@ import React from "react";
 
 const AboutMeContent = () => {
   return (
-    <div className=" pt-[50px] bg-slate-950">
-      <div className="flex  bg-gray-300 rounded-lg">
-        <img src="./src/assets/about/cursorIcon.png" alt="" />
+    <div className=" pt-[50px] bg-slate-950 ">
+      <div className="flex  bg-slate-950 hover:bg-gray-400 rounded-lg">
+        <img className="h-[50px] w-[50px] ml-[15px] mt-[40px]" src="./src/assets/about/cursorIcon.png" alt="" />
         <div>
           <strong className="text-[25px] text-white">Frontend Developer</strong>
           <p className="text-[25px] text-white">
@@ -13,8 +13,12 @@ const AboutMeContent = () => {
           </p>
         </div>
       </div>
-      <div className="flex py-[50px]">
-        <img src="./src/assets/about/serverIcon.png" alt="" />
+      <div className="flex my-[50px] bg-slate-950 hover:bg-gray-400 rounded-lg">
+        <img
+          className="h-[50px] w-[50px] ml-[15px] mt-[40px]"
+          src="./src/assets/about/serverIcon.png"
+          alt=""
+        />
         <div>
           <strong className="text-[25px] text-white">Backend Developer</strong>
           <p className="text-[25px] text-white">
@@ -23,8 +27,8 @@ const AboutMeContent = () => {
           </p>
         </div>
       </div>
-      <div className="flex">
-        <img src="./src/assets/about/uiIcon.png" alt="" />
+      <div className="flex bg-slate-950 hover:bg-gray-400 rounded-lg ">
+        <img className="h-[50px] w-[50px] ml-[15px] mt-[40px]" src="./src/assets/about/uiIcon.png" alt="" />
         <div>
           <strong className="text-[25px] text-white">UI Designer</strong>
           <p className="text-[25px] text-white">
